@@ -28,7 +28,7 @@ console.log(Math.max(0, 150, 30, 20, -8, -200));
 console.log(Math.random()*10 + 1);
 
 const min = 10
-const max = 20
+const max = 25
 
 
 
