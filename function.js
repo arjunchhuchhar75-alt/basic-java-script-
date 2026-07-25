@@ -16,14 +16,31 @@ console.log("n");
 
 function addTwoNumbers(number1, number2){
         
-    // let result = number1 + number2
-    
-    //  return result
+    let result = number1 + number2
+    if(result > 10){
+      return result;
     }
+    
+     return 90;
+    }
+function subStractTwoNumber(n1,n2){
+    let r = n1 - n2;
+    if(  r<0   ){
+      r =  r - 1;
+    } else{
 
-const result = addTwoNumbers(3, 5)
+      return r;
+    }
+    
+    
+}
 
-// console.log("Result: ", result);
+const result = subStractTwoNumber(5, 10)
+const result2 = subStractTwoNumber(10, 5)
+
+
+console.log("Result: ", result, "and result 2 is ", result2);
+
 
 
   function loginUserMessage(username = "sam"){
