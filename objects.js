@@ -37,3 +37,6 @@ const mySym = Symbol("key1")
     
     console.log(JsUser.greeting());
     console.log(JsUser.greetingTwo());
+
+
+    
