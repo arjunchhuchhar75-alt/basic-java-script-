@@ -18,6 +18,6 @@ for (let index = 0; index < arr.length; index++) {
     secondlargest = arr[index]
 }
 
-} 
+   }
 
    console.log(secondlargest)
